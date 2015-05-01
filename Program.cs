@@ -10,8 +10,9 @@ namespace _2._2
     {
         static void Main(string[] args)
         {
-            foreach (var n in Enumerable.Range(0, 100)) Console.Write(n);   //Rangeメソッド(Enumerableクラス,Enumerableメソッドの一つ)　 
+            foreach (var n in Enumerable.Range(0, 50)) Console.Write(n);   //Rangeメソッド(Enumerableクラス,Enumerableメソッドの一つ)　 
             Console.WriteLine("");
+            Console.ReadKey();
         }
     }
 }
